@@ -36,7 +36,7 @@ sudo pip3 install boltiot
 sudo pip3 install pyOpenSSL ndg-httpsclient pyasn1
 sudo pip3 install 'requests[security]'
 ```
-- Don't forget to link the bolt wifi module to the bolt cloud before executing the python file and run the following command to monitor the temperature,
+- Don't forget to link the bolt wifi module to the bolt cloud and replace your own credentials in the "conf.py" file before executing the python file and run the following command to monitor the temperature,
 ```
 sudo python3 final_project.py
 ```
